@@ -11,3 +11,12 @@
  .box:hover .wave{
     opacity: 1;
  }
+
+ .logo{
+    transition: all 0.2s ease;
+ }
+
+ .box:hover .logo {
+    --tw-bg-opacity: 1;
+    background-color: rgb(11 114 231 / var(--tw-bg-opacity));
+ }
