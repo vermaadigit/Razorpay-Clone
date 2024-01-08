@@ -20,3 +20,42 @@
     --tw-bg-opacity: 1;
     background-color: rgb(11 114 231 / var(--tw-bg-opacity));
  }
+
+ .ads {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   background: linear-gradient(180deg, rgba(74, 144, 245, 0.21) -34.7%, rgba(125, 186, 244, 0.063) 100%, rgba(125, 186, 244, 0.1295) 100%);
+   border: 1px solid rgba(42, 134, 243, 0.32);
+   border-radius: 8px;
+   padding: 16px;
+   margin-top: 1.25rem;
+   gap: 8px;
+ }
+
+ .ads-heading {
+   font-weight: bolder;
+ }
+
+ .ads-link {
+   transition: all 0.15s ease-out;
+   cursor: pointer;
+   text-decoration: none;
+   outline: 2px solid transparent;
+   outline-offset: 2px;
+   color: hsla(212, 90.9%, 47.5%, 1);
+   font-weight: 700;
+   font-size: 14px;
+ }
+
+ .ads-icon {
+   width: 1em;
+   height: 1em;
+   display: inline-block;
+   line-height: 1em;
+   flex-shrink: 0;
+   color: currentColor;
+   vertical-align: middle;
+   font-size: 1.125rem;
+ }
