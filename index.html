@@ -533,11 +533,11 @@
             <h2 class="font-mullish text-center text-2xl leading-[1.2] font-extrabold text-white mt-[5rem]">
                 Explore Razorpay Business Banking
             </h2>
-            <div class="w-6 h-1 bg-greenLight mx-auto mt-5 mb-6"></div>
+            <div class="w-6 h-1 bg-greenLight md:mx-auto mt-4 mb-6 md:mb-20"></div>
 
             <!-- main feature box  -->
 
-            <div class="w-full min-h-[440px] flex relative ">
+            <div class="w-full min-h-[440px] flex relative md:border border-grayText border-opacity-50 rounded-md">
                 <img src="images/x-flame-1.png" alt="" loading="lazy"
                 class="absolute -top-[142px] -left-[140px] w-[200px]">
 
@@ -545,7 +545,7 @@
                 class="absolute top-[150px] -right-[180px] w-[270px]">
 
                 <!-- content box  -->
-                <div class="w-full min-h-[520px] flex rounded-md relative p-10 py-12 border-grayText md:border border-opacity-50 bg-[#181C2E]">
+                <div class="w-full min-h-[520px] flex relative p-10 py-12 bg-[#181C2E]" >
                     <!-- left-section -->
                     <div class="flex flex-col justify-between w-full ">
                         <h3 class="font-mullish text-[28px] leading-10 font-bold max-w-[500px] text-white">
@@ -556,29 +556,21 @@
                             <span class="text-greenLight">Business Banking</span>
                         </h3>
                         <ul class="space-y-2">
-                            <li class="font-mullish flex items-center space-x-2">
+                            <li class="font-mullish flex items-center space-x-2 text-white">
                                 <i data-feather="check" class="text-greenLight"></i>
-                                <span>100+ Payment Methods</span>
+                                <span>Open a fully digital current account</span>
                             </li>
-                            <li class="font-mullish flex items-center space-x-2">
+                            <li class="font-mullish flex items-center space-x-2 text-white">
                                 <i data-feather="check" class="text-greenLight"></i>
-                                <span>Industry Leading Success Rate</span>
+                                <span>Automate payables & compliment payments</span>
                             </li>
-                            <li class="font-mullish flex items-center space-x-2">
+                            <li class="font-mullish flex items-center space-x-2 text-white">
                                 <i data-feather="check" class="text-greenLight"></i>
-                                <span>Superior Checkout Experience</span>
+                                <span>Simplify and track spends with Corporate cards</span>
                             </li>
-                            <li class="font-mullish flex items-center space-x-2">
+                            <li class="font-mullish flex items-center space-x-2 text-white">
                                 <i data-feather="check" class="text-greenLight"></i>
-                                <span>Easy to Integrate</span>
-                            </li>
-                            <li class="font-mullish flex items-center space-x-2">
-                                <i data-feather="check" class="text-greenLight"></i>
-                                <span>Instant Settlements from day 1</span>
-                            </li>
-                            <li class="font-mullish flex items-center space-x-2">
-                                <i data-feather="check" class="text-greenLight"></i>
-                                <span>In-depth Reporting and Insights</span>
+                                <span>View financial insights at a glance</span>
                             </li>
                         </ul>
     
@@ -586,9 +578,23 @@
     
                         <div class="flex flex-row items-center space-x-4">
                             <button
-                            class="bg-lightBlue w-fit text-white py-[14px] px-[18px] rounded-md font-mullish
-                            font-bold hover:bg-lightBlue500 transition-all duration-200"
-                            >Sign Up Now</button>
+                            class="relative bg-lightBlue w-full md:w-fit flex items-center justify-center 
+                            md:justify-start text-white py-[14px] px-[18px] md:pr-[90px] rounded-md
+                            font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200">
+                                Sign Up
+                                <div class="w-12 h-[60px] bg-greenLight absolute right-6 skew-x-[20deg] flex justify-center items-center">
+                                    <svg
+                                        viewBox="0 0 24 24"
+                                        focusable="false"
+                                        class="w-[20px] h-[20px] "
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                                        ></path>
+                                    </svg>
+                                </div>
+                            </button>
                             <!-- hyperlink  -->
                             <div class="flex items-center cursor-pointer group">
                                 <a href="#"
@@ -600,7 +606,7 @@
                         </div>
                     </div>
     
-                    <img src="images/payment-suite.png" alt=""
+                    <img src="images/buisness-banking.png" alt=""
                     class="absolute max-w-[600px] right-0 bottom-0">
                 </div>
             </div>
