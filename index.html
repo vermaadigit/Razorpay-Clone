@@ -164,7 +164,10 @@
 
         <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
             <!-- heading -->
-            <h2 class="font-mullish text-center text-2xl leading-[1.2] font-extrabold">Accept Payments with Razorpay Payment Suite</h2>
+            <h2 class="font-mullish text-center text-2xl leading-[1.2] font-extrabold hidden md:block">Accept Payments with Razorpay Payment Suite</h2>
+
+            <h2 class="font-mullish text-center text-5xl leading-[1.2] font-extrabold md:hidden">Explore Razorpay Payment Suite</h2>
+
             <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
 
             <!-- content box -->
@@ -204,13 +207,13 @@
 
                     <!-- for button and hyperlink  -->
 
-                    <div class="flex flex-row items-center space-x-4">
+                    <div class="flex flex-col-reverse md:flex-row items-center space-x-4">
                         <button
-                        class="bg-lightBlue w-fit text-white py-[14px] px-[18px] rounded-md font-mullish
+                        class="bg-lightBlue w-full md:w-fit text-white py-[14px] px-[18px] rounded-md font-mullish
                         font-bold hover:bg-lightBlue500 transition-all duration-200"
                         >Sign Up Now</button>
                         <!-- hyperlink  -->
-                        <div class="flex items-center cursor-pointer group">
+                        <div class="flex self-start md:items-center-center cursor-pointer group">
                             <a href="#"
                             class="font-mullish font-bold text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"
                             >Know More</a>
@@ -221,10 +224,10 @@
                 </div>
 
                 <img src="images/payment-suite.png" alt=""
-                class="absolute max-w-[600px] right-0 bottom-0">
+                class="absolute max-w-[600px] right-0 bottom-0 hidden md:max-w-[400px] lg:max-w-[600px] md:block lg:block">
             </div>
 
-            <div class="w-full grid grid-cols-3 gap-4 mt-10">
+            <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
                 <!-- Box1 -->
                 <div class="box w-full min-h-[15rem] relative cursor-pointer"> 
                     <img src="images/payment-link-icon.svg" alt=""
