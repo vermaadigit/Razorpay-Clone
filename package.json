@@ -1,13 +1,11 @@
 {
-  "homepage": "https://vermaadigit.github.io/Razorpay-Clone",
   "name": "razorpay-clone",
   "version": "1.0.0",
   "description": "Razorpay Clone",
   "main": "index.js",
   "scripts": {
-    "start": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "start": "vite"
+    
   },
   "author": "",
   "license": "ISC",
